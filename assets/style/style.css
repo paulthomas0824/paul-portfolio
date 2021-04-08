@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+    padding:22px;
+    border: 3px solid black ;
+}
+
+header nav{
+    float: right;
+    
+    margin: 7px 0;
+}
+header h1{
+    margin: 0;
+    display: inline;
+    color: yellow;
+  
+}
+.resume-title{
+    text-align: center;
+}
+    
+header nav ol li{
+    margin: 0;
+    display: inline;
+}
+
+header nav ol li a{
+    margin:0 30px;
+    font-size: 22px;
+    text-decoration: none;
+    color: yellow;
+}
+
+
+embed{
+    
+    background-color: grey;
+    display: inline;
+    margin: 100px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+footer{
+    background-color: gray;
+    padding:22px;
+    border: 3px solid black ;
+    
+}
+
+footer h1{
+    margin: 0;
+    display: inline;
+    color: black;
+    
+}
+
+footer h1 a{
+    text-decoration: none;
+ 
+   
+}
+footer h1 a:hover{
+    color: yellow;
+
+}
+
+.flex-transcript{
+    display: flex;
+    justify-content: center;
+}
