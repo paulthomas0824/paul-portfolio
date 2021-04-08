@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 header{
     background-color: gray;
@@ -13,6 +14,11 @@ header nav{
     float: right;
     
     margin: 7px 0;
+}
+header nav ol li a:hover{
+
+    color: purple;
+    
 }
 header h1{
     margin: 0;
@@ -41,7 +47,7 @@ embed{
     
     background-color: grey;
     display: inline;
-    margin: 100px;
+    margin: 10px;
     box-shadow: 5px 5px 10px black;
 
 }
@@ -69,8 +75,53 @@ footer h1 a:hover{
     color: yellow;
 
 }
+footer img:hover{
+    opacity: 50%;
+}
 
 .flex-transcript{
     display: flex;
     justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
+ 
+   
+    
+}
+
+.container-item{
+    margin: 10px;
+   font-size: 40px;
+   text-align: center;
+
+   
+
+
+   
+
+}
+.container img
+{   
+    margin: 5px;   
+    vertical-align: middle;
+}
+
+.container img:hover
+{   
+    margin: 5px;   
+    vertical-align: middle;
+    opacity: 50%;
+}
+
+h1 img{
+    margin: 5px;   
+    vertical-align: middle;
 }
